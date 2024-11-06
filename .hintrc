@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-box-reflect",
+          "-webkit-box-reflect: below 10px -o-linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0,0.3))",
+          "@viewport",
+          "@viewport"
+        ]
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_chr <= 125",
+    "not and_ff <= 126",
+    "not chrome <= 126",
+    "not edge <= 125",
+    "not firefox <= 127",
+    "not ios_saf <= 17.5",
+    "not opera <= 110",
+    "not safari <= 17.5"
+  ]
+}

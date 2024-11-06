@@ -1,0 +1,201 @@
+[23-Jul-2024 06:25:57 UTC] PHP Warning:  require(/home3/elngbpzd/groupnefertiti.com/../vendor/autoload.php): failed to open stream: No such file or directory in /home3/elngbpzd/groupnefertiti.com/index.php on line 34
+[23-Jul-2024 06:25:57 UTC] PHP Warning:  require(/home3/elngbpzd/groupnefertiti.com/../vendor/autoload.php): failed to open stream: No such file or directory in /home3/elngbpzd/groupnefertiti.com/index.php on line 34
+[23-Jul-2024 06:25:57 UTC] PHP Fatal error:  require(): Failed opening required '/home3/elngbpzd/groupnefertiti.com/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home3/elngbpzd/groupnefertiti.com/index.php on line 34
+[23-Jul-2024 06:25:59 UTC] PHP Warning:  require(/home3/elngbpzd/groupnefertiti.com/../vendor/autoload.php): failed to open stream: No such file or directory in /home3/elngbpzd/groupnefertiti.com/index.php on line 34
+[23-Jul-2024 06:25:59 UTC] PHP Warning:  require(/home3/elngbpzd/groupnefertiti.com/../vendor/autoload.php): failed to open stream: No such file or directory in /home3/elngbpzd/groupnefertiti.com/index.php on line 34
+[23-Jul-2024 06:25:59 UTC] PHP Fatal error:  require(): Failed opening required '/home3/elngbpzd/groupnefertiti.com/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home3/elngbpzd/groupnefertiti.com/index.php on line 34
+[23-Jul-2024 06:26:05 UTC] PHP Warning:  require(/home3/elngbpzd/groupnefertiti.com/../vendor/autoload.php): failed to open stream: No such file or directory in /home3/elngbpzd/groupnefertiti.com/index.php on line 34
+[23-Jul-2024 06:26:05 UTC] PHP Warning:  require(/home3/elngbpzd/groupnefertiti.com/../vendor/autoload.php): failed to open stream: No such file or directory in /home3/elngbpzd/groupnefertiti.com/index.php on line 34
+[23-Jul-2024 06:26:05 UTC] PHP Fatal error:  require(): Failed opening required '/home3/elngbpzd/groupnefertiti.com/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home3/elngbpzd/groupnefertiti.com/index.php on line 34
+[23-Jul-2024 06:27:00 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home3/elngbpzd/groupnefertiti.com/vendor/composer/platform_check.php on line 24
+[23-Jul-2024 06:27:03 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.2.34. in /home3/elngbpzd/groupnefertiti.com/vendor/composer/platform_check.php on line 24
+[23-Jul-2024 06:28:40 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/home/jeremie/ProjetClient/Site/SIteNefertiti/storage/logs" and it could not be created: Permission denied in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:200
+Stack trace:
+#0 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(123): Monolog\Handler\StreamHandler->createDir('/home/jeremie/P...')
+#1 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(44): Monolog\Handler\StreamHandler->write(Object(Monolog\LogRecord))
+#2 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(389): Monolog\Handler\AbstractProcessingHandler->handle(Object(Monolog\LogRecord))
+#3 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(644): Monolog\Logger->addRecord(Object(Monolog\Level), 'file_put_conten...', Array)
+#4 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(184): Monolog\Logger->error('file_put_conten...', Array)
+#5 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(97): Illuminate\Log\Logger->writeLog('error', 'file_put_conten...', Array)
+#6 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\Log\Logger->error('file_put_conten...', Array)
+#7 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\Log\LogManager->error('file_put_conten...', Array)
+#8 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\Foundation\Exceptions\Handler->reportThrowable(Object(ErrorException))
+#9 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(730): Illuminate\Foundation\Exceptions\Handler->report(Object(ErrorException))
+#10 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#11 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#12 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#13 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#14 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(UnexpectedValueException))
+#15 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(UnexpectedValueException))
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(UnexpectedValueException))
+#17 {main}
+  thrown in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 200
+[23-Jul-2024 06:30:11 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/home/jeremie/ProjetClient/Site/SIteNefertiti/storage/logs" and it could not be created: Permission denied in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:200
+Stack trace:
+#0 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(123): Monolog\Handler\StreamHandler->createDir('/home/jeremie/P...')
+#1 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(44): Monolog\Handler\StreamHandler->write(Object(Monolog\LogRecord))
+#2 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(389): Monolog\Handler\AbstractProcessingHandler->handle(Object(Monolog\LogRecord))
+#3 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(644): Monolog\Logger->addRecord(Object(Monolog\Level), 'file_put_conten...', Array)
+#4 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(184): Monolog\Logger->error('file_put_conten...', Array)
+#5 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(97): Illuminate\Log\Logger->writeLog('error', 'file_put_conten...', Array)
+#6 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\Log\Logger->error('file_put_conten...', Array)
+#7 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\Log\LogManager->error('file_put_conten...', Array)
+#8 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\Foundation\Exceptions\Handler->reportThrowable(Object(ErrorException))
+#9 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(730): Illuminate\Foundation\Exceptions\Handler->report(Object(ErrorException))
+#10 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#11 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#12 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#13 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#14 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(UnexpectedValueException))
+#15 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(UnexpectedValueException))
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(UnexpectedValueException))
+#17 {main}
+  thrown in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 200
+[23-Jul-2024 06:30:13 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/home/jeremie/ProjetClient/Site/SIteNefertiti/storage/logs" and it could not be created: Permission denied in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:200
+Stack trace:
+#0 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(123): Monolog\Handler\StreamHandler->createDir('/home/jeremie/P...')
+#1 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(44): Monolog\Handler\StreamHandler->write(Object(Monolog\LogRecord))
+#2 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(389): Monolog\Handler\AbstractProcessingHandler->handle(Object(Monolog\LogRecord))
+#3 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(644): Monolog\Logger->addRecord(Object(Monolog\Level), 'file_put_conten...', Array)
+#4 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(184): Monolog\Logger->error('file_put_conten...', Array)
+#5 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(97): Illuminate\Log\Logger->writeLog('error', 'file_put_conten...', Array)
+#6 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\Log\Logger->error('file_put_conten...', Array)
+#7 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\Log\LogManager->error('file_put_conten...', Array)
+#8 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\Foundation\Exceptions\Handler->reportThrowable(Object(ErrorException))
+#9 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(730): Illuminate\Foundation\Exceptions\Handler->report(Object(ErrorException))
+#10 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#11 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#12 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#13 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#14 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(UnexpectedValueException))
+#15 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(UnexpectedValueException))
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(UnexpectedValueException))
+#17 {main}
+  thrown in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 200
+[23-Jul-2024 06:30:48 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/home/jeremie/ProjetClient/Site/SIteNefertiti/storage/logs" and it could not be created: Permission denied in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:200
+Stack trace:
+#0 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(123): Monolog\Handler\StreamHandler->createDir('/home/jeremie/P...')
+#1 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(44): Monolog\Handler\StreamHandler->write(Object(Monolog\LogRecord))
+#2 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(389): Monolog\Handler\AbstractProcessingHandler->handle(Object(Monolog\LogRecord))
+#3 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(644): Monolog\Logger->addRecord(Object(Monolog\Level), 'file_put_conten...', Array)
+#4 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(184): Monolog\Logger->error('file_put_conten...', Array)
+#5 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(97): Illuminate\Log\Logger->writeLog('error', 'file_put_conten...', Array)
+#6 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\Log\Logger->error('file_put_conten...', Array)
+#7 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\Log\LogManager->error('file_put_conten...', Array)
+#8 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\Foundation\Exceptions\Handler->reportThrowable(Object(ErrorException))
+#9 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(730): Illuminate\Foundation\Exceptions\Handler->report(Object(ErrorException))
+#10 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#11 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#12 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#13 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#14 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(UnexpectedValueException))
+#15 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(UnexpectedValueException))
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(UnexpectedValueException))
+#17 {main}
+  thrown in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 200
+[23-Jul-2024 06:30:50 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/home/jeremie/ProjetClient/Site/SIteNefertiti/storage/logs" and it could not be created: Permission denied in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:200
+Stack trace:
+#0 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(123): Monolog\Handler\StreamHandler->createDir('/home/jeremie/P...')
+#1 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(44): Monolog\Handler\StreamHandler->write(Object(Monolog\LogRecord))
+#2 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(389): Monolog\Handler\AbstractProcessingHandler->handle(Object(Monolog\LogRecord))
+#3 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(644): Monolog\Logger->addRecord(Object(Monolog\Level), 'file_put_conten...', Array)
+#4 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(184): Monolog\Logger->error('file_put_conten...', Array)
+#5 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(97): Illuminate\Log\Logger->writeLog('error', 'file_put_conten...', Array)
+#6 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\Log\Logger->error('file_put_conten...', Array)
+#7 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\Log\LogManager->error('file_put_conten...', Array)
+#8 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\Foundation\Exceptions\Handler->reportThrowable(Object(ErrorException))
+#9 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(730): Illuminate\Foundation\Exceptions\Handler->report(Object(ErrorException))
+#10 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#11 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#12 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#13 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#14 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(UnexpectedValueException))
+#15 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(UnexpectedValueException))
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(UnexpectedValueException))
+#17 {main}
+  thrown in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 200
+[23-Jul-2024 06:31:55 UTC] PHP Parse error:  syntax error, unexpected token "|", expecting end of file in /home3/elngbpzd/groupnefertiti.com/index.php on line 64
+[23-Jul-2024 06:36:21 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/home/jeremie/ProjetClient/Site/SIteNefertiti/storage/logs" and it could not be created: Permission denied in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:200
+Stack trace:
+#0 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(123): Monolog\Handler\StreamHandler->createDir('/home/jeremie/P...')
+#1 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(44): Monolog\Handler\StreamHandler->write(Object(Monolog\LogRecord))
+#2 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(389): Monolog\Handler\AbstractProcessingHandler->handle(Object(Monolog\LogRecord))
+#3 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(644): Monolog\Logger->addRecord(Object(Monolog\Level), 'file_put_conten...', Array)
+#4 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(184): Monolog\Logger->error('file_put_conten...', Array)
+#5 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(97): Illuminate\Log\Logger->writeLog('error', 'file_put_conten...', Array)
+#6 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\Log\Logger->error('file_put_conten...', Array)
+#7 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\Log\LogManager->error('file_put_conten...', Array)
+#8 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\Foundation\Exceptions\Handler->reportThrowable(Object(ErrorException))
+#9 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(730): Illuminate\Foundation\Exceptions\Handler->report(Object(ErrorException))
+#10 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#11 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#12 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#13 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#14 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(UnexpectedValueException))
+#15 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(UnexpectedValueException))
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(UnexpectedValueException))
+#17 {main}
+  thrown in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 200
+[23-Jul-2024 06:36:23 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/home/jeremie/ProjetClient/Site/SIteNefertiti/storage/logs" and it could not be created: Permission denied in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:200
+Stack trace:
+#0 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(123): Monolog\Handler\StreamHandler->createDir('/home/jeremie/P...')
+#1 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(44): Monolog\Handler\StreamHandler->write(Object(Monolog\LogRecord))
+#2 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(389): Monolog\Handler\AbstractProcessingHandler->handle(Object(Monolog\LogRecord))
+#3 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(644): Monolog\Logger->addRecord(Object(Monolog\Level), 'file_put_conten...', Array)
+#4 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(184): Monolog\Logger->error('file_put_conten...', Array)
+#5 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(97): Illuminate\Log\Logger->writeLog('error', 'file_put_conten...', Array)
+#6 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\Log\Logger->error('file_put_conten...', Array)
+#7 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\Log\LogManager->error('file_put_conten...', Array)
+#8 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\Foundation\Exceptions\Handler->reportThrowable(Object(ErrorException))
+#9 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(730): Illuminate\Foundation\Exceptions\Handler->report(Object(ErrorException))
+#10 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#11 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#12 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#13 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#14 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(UnexpectedValueException))
+#15 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(UnexpectedValueException))
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(UnexpectedValueException))
+#17 {main}
+  thrown in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 200
+[23-Jul-2024 06:41:53 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/home/jeremie/ProjetClient/Site/SIteNefertiti/storage/logs" and it could not be created: Permission denied in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:200
+Stack trace:
+#0 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(123): Monolog\Handler\StreamHandler->createDir('/home/jeremie/P...')
+#1 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(44): Monolog\Handler\StreamHandler->write(Object(Monolog\LogRecord))
+#2 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(389): Monolog\Handler\AbstractProcessingHandler->handle(Object(Monolog\LogRecord))
+#3 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(644): Monolog\Logger->addRecord(Object(Monolog\Level), 'file_put_conten...', Array)
+#4 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(184): Monolog\Logger->error('file_put_conten...', Array)
+#5 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(97): Illuminate\Log\Logger->writeLog('error', 'file_put_conten...', Array)
+#6 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\Log\Logger->error('file_put_conten...', Array)
+#7 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\Log\LogManager->error('file_put_conten...', Array)
+#8 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\Foundation\Exceptions\Handler->reportThrowable(Object(ErrorException))
+#9 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(730): Illuminate\Foundation\Exceptions\Handler->report(Object(ErrorException))
+#10 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#11 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#12 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#13 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#14 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(UnexpectedValueException))
+#15 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(UnexpectedValueException))
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(UnexpectedValueException))
+#17 {main}
+  thrown in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 200
+[23-Jul-2024 06:45:52 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: There is no existing directory at "/home/jeremie/ProjetClient/Site/SIteNefertiti/storage/logs" and it could not be created: Permission denied in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:200
+Stack trace:
+#0 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php(123): Monolog\Handler\StreamHandler->createDir('/home/jeremie/P...')
+#1 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(44): Monolog\Handler\StreamHandler->write(Object(Monolog\LogRecord))
+#2 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(389): Monolog\Handler\AbstractProcessingHandler->handle(Object(Monolog\LogRecord))
+#3 /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Logger.php(644): Monolog\Logger->addRecord(Object(Monolog\Level), 'file_put_conten...', Array)
+#4 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(184): Monolog\Logger->error('file_put_conten...', Array)
+#5 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/Logger.php(97): Illuminate\Log\Logger->writeLog('error', 'file_put_conten...', Array)
+#6 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(681): Illuminate\Log\Logger->error('file_put_conten...', Array)
+#7 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(317): Illuminate\Log\LogManager->error('file_put_conten...', Array)
+#8 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(278): Illuminate\Foundation\Exceptions\Handler->reportThrowable(Object(ErrorException))
+#9 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(730): Illuminate\Foundation\Exceptions\Handler->report(Object(ErrorException))
+#10 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(650): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#11 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(556): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#12 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(473): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#13 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(UnexpectedValueException))
+#14 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse(Object(UnexpectedValueException))
+#15 /home3/elngbpzd/groupnefertiti.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException(Object(UnexpectedValueException))
+#16 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}(Object(UnexpectedValueException))
+#17 {main}
+  thrown in /home3/elngbpzd/groupnefertiti.com/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 200
